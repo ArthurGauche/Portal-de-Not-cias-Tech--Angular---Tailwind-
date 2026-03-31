@@ -1,11 +1,41 @@
-<header class="bg-blue-900 text-green-500 shadow-md">
-    <nav class="conteiner mx-auto px-6 py-4 flex justify-between itens-center">
-        <h1 class="text-xl font-bold tracking-tight">Portal de Notícias Tech</h1>
-        <ul class="flex space-x-6 text-sm font-medium">
-            <li class="hover:text-blue-300 transition"><a routerLink="">Início</a></li>
-            <li class="hover:text-blue-300 transition" ><a routerLink="tutoriais">Tutoriais</a></li>
-            <li class="hover:text-blue-300 transition" ><a routerLink="documentacao">Documentação</a></li>
-            <li class="hover:text-blue-300 transition" ><a routerLink="sobre-o-autor">Sobre o autor</a></li>
+<header class="bg-gradient-to-r from-[#0a246a] to-[#3a6ea5] text-white shadow-md 
+sticky top-0 z-50">
+    
+    <nav class="container mx-auto px-4 py-3 flex flex-col md:flex-row md:justify-between md:items-center gap-3">
+
+        <!-- Título -->
+        <h1 class="text-lg md:text-xl font-bold tracking-tight text-white drop-shadow-[1px_1px_0_black] text-center md:text-left">
+            Central de Notícias Tech
+        </h1>
+
+        <!-- Menu -->
+        <ul class="flex flex-wrap justify-center md:justify-end gap-2 text-xs font-medium">
+
+            <li class="px-2 py-1 bg-[#c0c0c0] 
+             border border-t-white border-l-white border-r-gray-600 border-b-gray-600
+             hover:bg-[#d6d3c5] active:translate-y-[1px] transition">
+                <a routerLink="">Início</a>
+            </li>
+
+            <li class="px-2 py-1 bg-[#c0c0c0] 
+             border border-t-white border-l-white border-r-gray-600 border-b-gray-600
+             hover:bg-[#d6d3c5] active:translate-y-[1px] transition">
+                <a routerLink="tutoriais">Tutoriais</a>
+            </li>
+
+            <li class="px-2 py-1 bg-[#c0c0c0] 
+             border border-t-white border-l-white border-r-gray-600 border-b-gray-600
+             hover:bg-[#d6d3c5] active:translate-y-[1px] transition">
+                <a routerLink="documentacao">Documentação</a>
+            </li>
+
+            <li class="px-2 py-1 bg-[#c0c0c0] 
+             border border-t-white border-l-white border-r-gray-600 border-b-gray-600
+             hover:bg-[#d6d3c5] active:translate-y-[1px] transition">
+                <a routerLink="sobre-o-autor">Sobre o autor</a>
+            </li>
+
         </ul>
+
     </nav>
 </header>
