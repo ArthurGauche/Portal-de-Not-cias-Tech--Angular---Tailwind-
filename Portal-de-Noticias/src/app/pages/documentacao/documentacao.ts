@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-documentacao',
-  imports: [],
+  imports:[],
   templateUrl: './documentacao.html',
   styleUrl: './documentacao.css',
 })

@@ -1,27 +1,23 @@
-<h1 class="text-white text-2xl font-bold my-6 px-6 py-3 
-bg-linear-to-r from-[#0a246a] to-[#3a6ea5] 
-border-2 border-t-white border-l-white border-r-gray-500 border-b-gray-500
-drop-shadow-[1px_1px_0_black] 
+<h1 class="text-3xl font-bold my-8 px-6 py-3 
+bg-gradient-to-r from-cyan-500 to-blue-600 
+text-black rounded-xl shadow-lg 
 w-fit mx-auto text-center">
   Noticias de Tecnologia
 </h1>
 
-<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 p-4 bg-[#3a6ea5] min-h-screen">
-
-    <div class="bg-[#ece9d8] border-2 border-t-white border-l-white border-r-gray-500 border-b-gray-500 shadow-inner rounded-sm overflow-hidden cursor-pointer active:translate-y-[2px] "
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4 bg-[#3a6ea5] min-h-screen">
+    <div class="bg-gray-800 rounded-2xl shadow-xl overflow-hidden cursor-pointer 
+        hover:scale-105 hover:bg-gray-700 transition duration-300"
         *ngFor="let item of requisicao">
 
-        <div class="bg-linear-to-r from-[#0a246a] to-[#3a6ea5] text-white text-xs font-bold px-2 py-1">
-            noticia.exe
-        </div>
 
-        <div class="p-3 ">
+        <div class="p-4">
 
-            <h3 class="text-sm font-bold text-black mb-2">
+            <h3 class="text-lg font-bold text-cyan-300 mb-2">
                 {{item.tecnologia}}
             </h3>
 
-            <p class="text-xs text-gray-800 leading-relaxed">
+            <p class="text-sm text-gray-300 leading-relaxed">
                 {{item.descricao}}
             </p>
 
